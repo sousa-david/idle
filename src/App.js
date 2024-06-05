@@ -14,7 +14,7 @@ function App() {
     <Router>
       <NavigationBar />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/idle" element={<Home />} />
         <Route path="/members" element={<Members />} />
         <Route path="/discography" element={<Discography />} />
       </Routes>
