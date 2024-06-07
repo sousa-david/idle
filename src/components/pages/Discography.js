@@ -1,7 +1,7 @@
 function Discography() {
     return (
         <div className="container">
-            <h1 className="mt-5">Discografia</h1>
+            <h1 className="display-5 mt-5">Discografia</h1>
             <h2 className="text-primary mt-2">Álbuns de estúdio</h2>
             <ul>
                 <li>I Never Die</li>

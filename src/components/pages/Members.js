@@ -1,7 +1,7 @@
 function Members() {
     return (
         <div className="container">
-            <h1 className="mt-5">Atuais</h1>
+            <h1 className="display-5 mt-5">Atuais</h1>
             <ul>
                 <li>Soyeon</li>
                 <li>Miyeon</li>
@@ -9,7 +9,7 @@ function Members() {
                 <li>Yuqi</li>
                 <li>Shuhua</li>
             </ul>
-            <h1>Ex-membro</h1>
+            <h1 className="display-5">Ex-membro</h1>
             <ul><li>Soojin</li></ul>
         </div>
     )
