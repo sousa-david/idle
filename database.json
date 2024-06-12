@@ -1,0 +1,134 @@
+{
+    "recordings": [
+        {
+            "id": "iam",
+            "name": "I Am",
+            "type": "EP",
+            "release": "02-05-2018",
+            "tracklist": ["Latata", "$$$", "Maze", "Don't Text Me", "What's in Your House?", "Hear Me"]
+        },
+        {
+            "id": "imade",
+            "name": "I Made",
+            "type": "EP",
+            "release": "26-02-2019",
+            "tracklist": ["Senorita", "What's Your Name", "Put It Straight", "Give Me Your", "Blow Your Mind"]
+        },
+        {
+            "id": "latata",
+            "name": "Latata",
+            "type": "EP",
+            "release": "31-07-2019",
+            "tracklist": ["Latata (versão japonesa)", "Light My Fire", "Maze (versão japonesa)", "For You"]
+        },
+        {
+            "id": "itrust",
+            "name": "I Trust",
+            "type": "EP",
+            "release": "06-04-2020",
+            "tracklist": ["Oh My God", "Luv U", "Maybe", "Lion", "Oh My God (versão inglês)"]
+        },
+        {
+            "id": "dumdi",
+            "name": "Dumdi Dumdi",
+            "type": "single album",
+            "release": "03-08-2020",
+            "tracklist": ["Dumdi Dumdi", "I'm the Trend"]
+        },
+        {
+            "id": "omg",
+            "name": "Oh My God",
+            "type": "EP",
+            "release": "26-08-2020",
+            "tracklist": ["Oh My God (versão japonesa)", "Uh-Oh (versão japonesa)", "Senorita (versão japonesa)", "Tung-Tung (Empty)", "Dumdi Dumdi (versão japonesa)"]
+        },
+        {
+            "id": "iburn",
+            "name": "I Burn",
+            "type": "EP",
+            "release": "11-01-2021",
+            "tracklist": ["Hann (Alone in Winter)", "Hwaa", "Moon", "Where Is Love", "Lost", "Dahlia"]
+        },
+        {
+            "id": "neverdie",
+            "name": "I Never Die",
+            "type": "studio album",
+            "release": "14-03-2022",
+            "tracklist": ["Tomboy", "Never Stop Me", "Villain Dies", "Already", "Polaroid", "Escape", "Liar", "My Bag"]
+        },
+        {
+            "id": "ilove",
+            "name": "I Love",
+            "type": "EP",
+            "release": "17-10-2022",
+            "tracklist": ["Nxde", "Love", "Change", "Reset", "Sculpture", "Dark (X-File)"]
+        },
+        {
+            "id": "ifeel",
+            "name": "I Feel",
+            "type": "EP",
+            "release": "15-05-2023",
+            "tracklist": ["Queencard", "Allergy", "Lucid", "All Night", "Paradise", "Peter Pan"]
+        },
+        {
+            "id": "heat",
+            "name": "Heat",
+            "type": "EP",
+            "release": "05-10-2023",
+            "tracklist": ["I Do", "I Want That", "Eyes Roll", "Flip It", "Tall Trees"]
+        },
+        {
+            "id": "two",
+            "name": 2,
+            "type": "studio album",
+            "release": "29-01-2024",
+            "tracklist": ["Super Lady", "Revenge", "Doll", "Vision", "7 Days", "Fate", "Rollie", "Wife"]
+        },
+        {
+            "id": "isway",
+            "name": "I Sway",
+            "type": "EP",
+            "release": "08-07-2024",
+            "tracklist": []
+        }
+    ],
+
+    "members": [
+        {
+            "id": 1,
+            "name": "soyeon",
+            "bio": "Jeon Soyeon",
+            "status": "current"
+        },
+        {
+            "id": 2,
+            "name": "miyeon",
+            "bio": "Cho Miyeon",
+            "status": "current"
+        },
+        {
+            "id": 3,
+            "name": "minnie",
+            "bio": "Nicha Yontararak",
+            "status": "current"
+        },
+        {
+            "id": 4,
+            "name": "yuqi",
+            "bio": "Song Yuqi",
+            "status": "current"
+        },
+        {
+            "id": 5,
+            "name": "shuhua",
+            "bio": "Yeh Shuhua",
+            "status": "current"
+        },
+        {
+            "id": 6,
+            "name": "soojin",
+            "bio": "Seo Soojin",
+            "status": "former"
+        }
+    ]
+}

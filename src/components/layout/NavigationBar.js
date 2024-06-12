@@ -12,10 +12,10 @@ function NavigationBar() {
             <Navbar bg="light" data-bs-theme="light">
                 <Container>
                     <Navbar.Brand>
-                        <Link to="/idle"><img src={logo} width={50} height={50} alt="(G)I-DLE logo" /></Link>
+                        <Link to="/"><img src={logo} width={50} height={50} alt="(G)I-DLE logo" /></Link>
                     </Navbar.Brand>
                     <Nav className="me-auto">
-                        <Nav.Link><Link to="/idle">Início</Link></Nav.Link>
+                        <Nav.Link><Link to="/">Início</Link></Nav.Link>
                         <Nav.Link><Link to="/members">Membros</Link></Nav.Link>
                         <Nav.Link><Link to="/discography">Discografia</Link></Nav.Link>
                         <Nav.Link><Link to="/links">Links</Link></Nav.Link>

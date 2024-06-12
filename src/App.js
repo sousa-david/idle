@@ -11,7 +11,7 @@ import Members from "./components/pages/Members";
 import Discography from "./components/pages/Discography";
 import Links from "./components/pages/Links";
 import NotFound from "./components/pages/NotFound";
-import Album from "./components/pages/Album";
+import Member from "./components/pages/Member";
 
 function App() {
   return (
@@ -21,12 +21,12 @@ function App() {
           <NavigationBar />
         </header>
         <Routes>
-          <Route path="/idle" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/members" element={<Members />} />
           <Route path="/discography" element={<Discography />} />
           <Route path="/links" element={<Links />} />
           <Route path="*" element={<NotFound />} />
-          <Route path="/discography:id" element={<Album />} />
+          <Route path="/member/:id" element={<Member />}/>
         </Routes>
         <main className="content"></main>
         <footer className="footer">

@@ -1,3 +1,18 @@
-# idle
+# Fã site do (G)I-DLE
 
-Apenas um site apresentando meu grupo favorito de K-pop.
+## Sobre
+
+Projeto pessoal apresentando meu grupo favorito de K-pop.
+
+## Tecnologias utilizadas
+
+* HTML
+* CSS
+* Javascript
+* React
+* React Bootstrap
+* JSON Server
+
+## Autor
+
+**Desenvolvido pelo _neverland_ David Sousa**
