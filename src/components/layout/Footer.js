@@ -5,7 +5,7 @@ function Footer() {
         <footer className="footer mt-auto py-3 bg-light">
             <div className="container d-flex justify-content-between align-items-center">
                 <div className="d-flex align-items-center">
-                    <div className="mb-3 me-2 text-decoration-none">
+                    <div className="mb-3 me-2">
                         <img src={cube} alt="Cube Entertainment" width="40" height="40" />
                     </div>
                     <p className="text-muted small"><span className="text-uppercase">&copy; Cube Entertainment.</span> All Rights Reserved.</p>

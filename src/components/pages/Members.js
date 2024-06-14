@@ -26,17 +26,19 @@ function Members() {
     return (
         <div className="container">
             <h1 className="display-5 mt-5">Atuais</h1>
-            {members.filter(member => member.status === 'current').map((member) => (
-                <Card className="mb-3" style={{width:'18rem'}}>
-                    <Card.Header>
-                        <Card.Title><h1 className="text-capitalize">{member.name}</h1></Card.Title>
-                    </Card.Header>
-                    <Card.Body>
-                        <Card.Text>{member.bio}</Card.Text>
-                        <Link to={`/member/${member.id}`}><Button variant="primary">Ler mais</Button></Link>
-                    </Card.Body>
-                </Card>
-            ))}
+            <div className="d-flex">
+                {members.filter(member => member.status === 'current').map((member) => (
+                    <Card className="mb-3 me-2" style={{width:'18rem'}}>
+                        <Card.Header>
+                            <Card.Title><h1 className="text-capitalize">{member.name}</h1></Card.Title>
+                        </Card.Header>
+                        <Card.Body>
+                            <Card.Text>{member.bio}</Card.Text>
+                            <Link to={`/member/${member.id}`}><Button variant="primary">Ler mais</Button></Link>
+                        </Card.Body>
+                    </Card>
+                ))}
+            </div>
 
             <h1 className="display-5">Ex-membro</h1>
             {members.filter(member => member.status === 'former').map((member) => (

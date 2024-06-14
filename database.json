@@ -98,37 +98,43 @@
             "id": 1,
             "name": "soyeon",
             "bio": "Jeon Soyeon",
-            "status": "current"
+            "status": "current",
+            "instagram": "tiny.pretty.j"
         },
         {
             "id": 2,
             "name": "miyeon",
             "bio": "Cho Miyeon",
-            "status": "current"
+            "status": "current",
+            "instagram": "noodle.zip"
         },
         {
             "id": 3,
             "name": "minnie",
             "bio": "Nicha Yontararak",
-            "status": "current"
+            "status": "current",
+            "instagram": "min.nicha"
         },
         {
             "id": 4,
             "name": "yuqi",
             "bio": "Song Yuqi",
-            "status": "current"
+            "status": "current",
+            "instagram": "yuqisong.923"
         },
         {
             "id": 5,
             "name": "shuhua",
             "bio": "Yeh Shuhua",
-            "status": "current"
+            "status": "current",
+            "instagram": "yeh.shaa_"
         },
         {
             "id": 6,
             "name": "soojin",
             "bio": "Seo Soojin",
-            "status": "former"
+            "status": "former",
+            "instagram": "_seosootang"
         }
     ]
 }

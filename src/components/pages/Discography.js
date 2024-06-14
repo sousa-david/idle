@@ -24,16 +24,18 @@ function Discography() {
     return (
         <div className="container">
             <h1 className="display-5 mt-5">Discografia</h1>
-            {recordings.map((recording) => (
-                <Recording
-                name={recording.name}
-                type={recording.type}
-                release={recording.release}
-                tracklist={recording.tracklist}
-                key={recording.id}
-                />
-                )
-            )}
+            <div className="d-flex flex-wrap">
+                {recordings.map((recording) => (
+                    <Recording
+                    name={recording.name}
+                    type={recording.type}
+                    release={recording.release}
+                    tracklist={recording.tracklist}
+                    key={recording.id}
+                    />
+                    )
+                )}
+            </div>
         </div>
     )
 

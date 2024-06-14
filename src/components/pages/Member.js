@@ -1,6 +1,8 @@
 import { useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
 
+import { SocialIcon } from "react-social-icons";
+
 function Member() {
 
     const {id} = useParams();
@@ -22,9 +24,12 @@ function Member() {
 
     return (
         <div className="container">
-            <h1 className="text-capitalize display-6">{member.name}</h1>
+            <h1 className="text-capitalize display-6 mt-5">{member.name}</h1>
             <p>{member.bio}</p>
-            <p>{member.status}</p>
+            <div className="d-flex">
+                <SocialIcon network="instagram" bgColor="#800080" style={{height:25, width:25}} />&nbsp;
+                <p>{member.instagram}</p>
+            </div>
         </div>
     )
 }
