@@ -9,7 +9,7 @@ function Home() {
             <h1 className="display-5 mt-5">Início</h1>
             <Tabs defaultActiveKey="intro" id="tabs" className="mb-3" justify>
                 <Tab eventKey="intro" title="Introdução">
-                    <img src={gidle} alt="Grupo" />
+                    <img src={gidle} className="img-fluid" alt="Grupo" />
                     <p className="mt-4">
                         <span className="fw-bold">(G)I-DLE</span> é um grupo feminino de K-pop formado pela CUBE Entertainment em 2018.
                         Composto originalmente por seis membros &ndash; Soyeon, Miyeon, Minnie, Soojin, Yuqi e Shuhua &ndash; 

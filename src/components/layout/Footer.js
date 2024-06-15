@@ -2,7 +2,7 @@ import cube from "../../img/cube_logo.png";
 
 function Footer() {
     return (
-        <footer className="footer mt-auto py-3 bg-light">
+        <footer className="footer mt-auto py-3" style={{backgroundColor: "#f2f2f2"}}>
             <div className="container d-flex justify-content-between align-items-center">
                 <div className="d-flex align-items-center">
                     <div className="mb-3 me-2">

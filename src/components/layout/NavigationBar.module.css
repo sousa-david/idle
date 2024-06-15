@@ -1,0 +1,17 @@
+.customNavbar {
+    background-color: #57078c;
+}
+
+.customLinks {
+    margin-right: auto;
+}
+
+.customLinks a {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.customLinks a:hover {
+    color: #cab4d9;
+}
