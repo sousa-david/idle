@@ -8,7 +8,7 @@ function Footer() {
                     <div className="mb-3 me-2">
                         <img src={cube} alt="Cube Entertainment" width="40" height="40" />
                     </div>
-                    <p className="text-muted small"><span className="text-uppercase">&copy; Cube Entertainment.</span> All Rights Reserved.</p>
+                    <p className="text-muted small"><span className="text-uppercase">&copy; Cube Entertainment.</span> All rights reserved.</p>
                 </div>
                 <div className="mb-3 justify-content-end d-flex">
                     <span><a className="text-body-secondary" href="https://github.com/sousa-david">David Sousa</a></span>

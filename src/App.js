@@ -25,8 +25,8 @@ function App() {
           <Route path="/members" element={<Members />} />
           <Route path="/discography" element={<Discography />} />
           <Route path="/links" element={<Links />} />
-          <Route path="*" element={<NotFound />} />
           <Route path="/member/:id" element={<Member />}/>
+          <Route path="/*" element={<NotFound />} />
         </Routes>
         <main className="content"></main>
         <footer className="footer">

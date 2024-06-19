@@ -6,7 +6,7 @@ import gidle from "../../img/gidle.jpg";
 function Home() {
     return (
         <div className="container">
-            <h1 className="display-5 mt-5">Início</h1>
+            <h1 className="display-5 mt-5">(G)I-DLE</h1>
             <Tabs defaultActiveKey="intro" id="tabs" className="mb-3" justify>
                 <Tab eventKey="intro" title="Introdução">
                     <img src={gidle} className="img-fluid" alt="Grupo" />
