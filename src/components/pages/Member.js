@@ -1,7 +1,11 @@
 import { useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
 
+import Button from "react-bootstrap/Button";
+
 import { SocialIcon } from "react-social-icons";
+
+import NotFound from "./NotFound";
 
 function Member() {
 
@@ -33,15 +37,21 @@ function Member() {
     }, [id])
 
     return (
-        <div className="container">
+        <>
+        {image ? <div className="container mb-3">
             <h1 className="display-6 mt-5">{member.name}</h1>
-            {image ? (<img src={image} alt={member.name} className="img-fluid" />) : <p>Imagem não encontrada</p>}
+            <img src={image} alt={member.name} className="img-fluid" />
             <p>{member.bio}</p>
-            <div className="d-flex">
-                <SocialIcon network="instagram" bgColor="#5e068c" style={{height:25, width:25}} />&nbsp;
-                <p>{member.instagram}</p>
-            </div>
-        </div>
+            <a href={`https://www.instagram.com/${member.instagram}`}>
+                <Button variant="light">
+                    <div className="d-flex align-items-center fw-bold">
+                        <SocialIcon network="instagram" bgColor="#5e068c" style={{height: 25, width: 25}} />&nbsp;
+                        <span className="align-middle">{member.instagram}</span>
+                    </div>
+                </Button>
+            </a>
+        </div> : <NotFound />}
+        </>
     )
 }
 

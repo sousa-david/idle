@@ -22,7 +22,7 @@ function Discography() {
     }, [])
 
     return (
-        <div className="container">
+        <div className="container mb-3">
             <h1 className="display-5 mt-5">Discografia</h1>
             <div className="d-flex flex-wrap">
                 {recordings.map((recording) => (

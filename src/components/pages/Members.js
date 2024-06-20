@@ -30,7 +30,7 @@ function Members() {
                 {members.filter(member => member.status === 'current').map((member) => (
                     <Card className="mb-3 me-2" style={{width:'18rem'}}>
                         <Card.Header>
-                            <Card.Title><h1 className="text-capitalize">{member.name}</h1></Card.Title>
+                            <Card.Title><h1>{member.name}</h1></Card.Title>
                         </Card.Header>
                         <Card.Body>
                             <Card.Text>{member.bio}</Card.Text>
