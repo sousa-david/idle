@@ -1,9 +1,6 @@
 import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
 
-import Card from "react-bootstrap/Card";
-
-import { Button } from "react-bootstrap";
+import MemberCard from "./MemberCard";
 
 function Members() {
 
@@ -24,33 +21,26 @@ function Members() {
     }, [])
 
     return (
-        <div className="container">
-            <h1 className="display-5 mt-5">Atuais</h1>
-            <div className="d-flex">
+        <div className="container mt-5">
+            <div className="d-flex flex-wrap">
                 {members.filter(member => member.status === 'current').map((member) => (
-                    <Card className="mb-3 me-2" style={{width:'18rem'}}>
-                        <Card.Header>
-                            <Card.Title><h1>{member.name}</h1></Card.Title>
-                        </Card.Header>
-                        <Card.Body>
-                            <Card.Text>{member.bio}</Card.Text>
-                            <Link to={`/member/${member.id}`}><Button variant="primary">Ler mais</Button></Link>
-                        </Card.Body>
-                    </Card>
+                    <MemberCard
+                    id={member.id}
+                    name={member.name}
+                    description={member.description}
+                    key={member.id}
+                    />
                 ))}
             </div>
 
-            <h1 className="display-5">Ex-membro</h1>
+            <h4>Ex-membro</h4>
             {members.filter(member => member.status === 'former').map((member) => (
-                <Card className="mb-3" style={{width:'18rem'}}>
-                    <Card.Header>
-                        <Card.Title><h1 className="text-capitalize">{member.name}</h1></Card.Title>
-                    </Card.Header>
-                    <Card.Body>
-                        <Card.Text>{member.bio}</Card.Text>
-                        <Link to={`/member/${member.id}`}><Button variant="primary">Ler mais</Button></Link>
-                    </Card.Body>
-                </Card>
+                <MemberCard 
+                id={member.id}
+                name={member.name}
+                description={member.description}
+                key={member.id}
+                />
             ))}
         </div>
     )

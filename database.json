@@ -52,7 +52,7 @@
         {
             "id": 8,
             "name": "I Never Die",
-            "type": "studio album",
+            "type": "álbum de estúdio",
             "release": "14-03-2022",
             "tracklist": ["Tomboy", "Never Stop Me", "Villain Dies", "Already", "Polaroid", "Escape", "Liar", "My Bag"]
         },
@@ -80,7 +80,7 @@
         {
             "id": 12,
             "name": 2,
-            "type": "studio album",
+            "type": "álbum de estúdio",
             "release": "29-01-2024",
             "tracklist": ["Super Lady", "Revenge", "Doll", "Vision", "7 Days", "Fate", "Rollie", "Wife"]
         },
@@ -97,42 +97,42 @@
         {
             "id": "soyeon",
             "name": "Soyeon",
-            "bio": "Jeon Soyeon",
+            "description": "Soyeon é a líder, rapper principal e a principal compositora do grupo.",
             "status": "current",
             "instagram": "tiny.pretty.j"
         },
         {
             "id": "miyeon",
             "name": "Miyeon",
-            "bio": "Cho Miyeon",
+            "description": "Miyeon é a membro mais velha e uma das vocalistas principais do grupo.",
             "status": "current",
             "instagram": "noodle.zip"
         },
         {
             "id": "minnie",
             "name": "Minnie",
-            "bio": "Nicha Yontararak",
+            "description": "Minnie é uma das principais vocalistas e compositoras do grupo.",
             "status": "current",
             "instagram": "min.nicha"
         },
         {
             "id": "yuqi",
             "name": "Yuqi",
-            "bio": "Song Yuqi",
+            "description": "Yuqi é a dançarina principal e sub-rapper.",
             "status": "current",
             "instagram": "yuqisong.923"
         },
         {
             "id": "shuhua",
             "name": "Shuhua",
-            "bio": "Yeh Shuhua",
+            "description": "Shuhua é a maknae do grupo.",
             "status": "current",
             "instagram": "yeh.shaa_"
         },
         {
             "id": "soojin",
             "name": "Soojin",
-            "bio": "Seo Soojin",
+            "description": "Soojin fez parte do grupo até agosto de 2021 e fazia a função de dançarina principal.",
             "status": "former",
             "instagram": "_seosootang"
         }

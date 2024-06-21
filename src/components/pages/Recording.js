@@ -13,7 +13,7 @@ function Recording({name, type, release, tracklist}) {
                     </Card.Subtitle>
                     <Card.Text>
                         <Accordion>
-                            <Accordion.Item activeKey="0">
+                            <Accordion.Item eventKey="0">
                                 <Accordion.Header>
                                     <span className="fw-bold">Tracklist:</span>
                                 </Accordion.Header>
