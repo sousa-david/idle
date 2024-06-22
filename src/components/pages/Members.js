@@ -2,9 +2,18 @@ import { useState, useEffect } from "react";
 
 import MemberCard from "./MemberCard";
 
+import image1 from "../../img/soyeon.jpg";
+import image2 from "../../img/miyeon.jpg";
+import image3 from "../../img/minnie.jpg";
+import image4 from "../../img/yuqi.jpg";
+import image5 from "../../img/shuhua.jpg";
+import image6 from "../../img/soojin.jpg";
+
 function Members() {
 
     const [members, setMembers] = useState([]);
+
+    const photos = [image1, image2, image3, image4, image5, image6];
 
     useEffect(() => {
         fetch('http://localhost:3001/members', {
@@ -23,25 +32,17 @@ function Members() {
     return (
         <div className="container mt-5">
             <div className="d-flex flex-wrap">
-                {members.filter(member => member.status === 'current').map((member) => (
+                {members.map((member, index) => (
                     <MemberCard
                     id={member.id}
                     name={member.name}
                     description={member.description}
+                    image={photos[index]}
+                    status={member.status}
                     key={member.id}
                     />
                 ))}
             </div>
-
-            <h4>Ex-membro</h4>
-            {members.filter(member => member.status === 'former').map((member) => (
-                <MemberCard 
-                id={member.id}
-                name={member.name}
-                description={member.description}
-                key={member.id}
-                />
-            ))}
         </div>
     )
 }
