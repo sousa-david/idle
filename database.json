@@ -31,7 +31,7 @@
         {
             "id": 5,
             "name": "Dumdi Dumdi",
-            "type": "single album",
+            "type": "single álbum",
             "release": "03-08-2020",
             "tracklist": ["Dumdi Dumdi", "I'm the Trend"]
         },
@@ -89,7 +89,7 @@
             "name": "I Sway",
             "type": "EP",
             "release": "08-07-2024",
-            "tracklist": []
+            "tracklist": ["Klaxon", "Last Forever", "Bloom", "Neverland"]
         }
     ],
 

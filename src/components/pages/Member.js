@@ -1,9 +1,14 @@
-import { useParams, Navigate } from "react-router-dom";
+import styles from "../layout/Button.module.css";
+
+import { useParams, Link, Navigate } from "react-router-dom";
 import { useState, useEffect } from "react";
 
 import Button from "react-bootstrap/Button";
+import Breadcrumb from "react-bootstrap/Breadcrumb";
 
-import { SocialIcon } from "react-social-icons";
+import { FaInstagram, FaHome } from "react-icons/fa";
+
+import MemberBio from "./MemberBio";
 
 function Member() {
 
@@ -39,18 +44,32 @@ function Member() {
     }
 
     return (
-        <div className="container mb-3">
-            <h1 className="display-6 mt-5">{member.name}</h1>
-            <img src={image} alt={member.name} className="img-fluid" />
-            <p>{member.description}</p>
-            <a href={`https://www.instagram.com/${member.instagram}`}>
-                <Button variant="light">
-                    <div className="d-flex align-items-center fw-bold">
-                        <SocialIcon network="instagram" bgColor="#5e068c" style={{height: 25, width: 25}} />&nbsp;
-                        <span className="align-middle">{member.instagram}</span>
+        <div className="container mt-5 mb-3">
+            <h1 className="display-6">{member.name}</h1>
+            <Breadcrumb>
+                <Breadcrumb.Item><Link to="/"><FaHome /></Link></Breadcrumb.Item>
+                <Breadcrumb.Item><Link to="/members">Membros</Link></Breadcrumb.Item>
+                <Breadcrumb.Item active>{member.name}</Breadcrumb.Item>
+            </Breadcrumb>
+            <div className="d-flex">
+                <img src={image} alt={member.name} className="img-fluid" />
+                <div className="px-3">
+                    <p><MemberBio name={member.id} /></p>
+                    <a href={`https://www.instagram.com/${member.instagram}`}>
+                        <Button className={styles.customButton}>
+                            <div className="d-flex align-items-center fw-bold">
+                                <FaInstagram />&nbsp;
+                                <span className="align-middle">{member.instagram}</span>
+                            </div>
+                        </Button>
+                    </a>
+                    <div className="mt-2">
+                        <Link to="/members"><Button variant="secondary">
+                            <span className="fw-bold text-white">Voltar</span>
+                        </Button></Link>
                     </div>
-                </Button>
-            </a>
+                </div>
+            </div>
         </div>
     )
     

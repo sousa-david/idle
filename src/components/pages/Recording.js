@@ -9,19 +9,19 @@ function Recording({name, type, release, tracklist}) {
                 <Card.Body>
                     <Card.Title>{name}</Card.Title>
                     <Card.Subtitle>
-                        <span className="fw-bold">Data de lançamento:</span> {release}
+                        <strong>Data de lançamento:</strong> {release}
                     </Card.Subtitle>
                     <Card.Text>
                         <Accordion>
                             <Accordion.Item eventKey="0">
                                 <Accordion.Header>
-                                    <span className="fw-bold">Tracklist:</span>
+                                    <strong>Tracklist:</strong>
                                 </Accordion.Header>
                                 <Accordion.Body>
                                     {tracklist.map((track) => (
-                                        <ul className="list-unstyled">
-                                            <li><span className="fst-italic">{track}</span></li>
-                                        </ul>
+                                        <div>
+                                            <em>{track}</em><br />
+                                        </div>
                                     ))}
                                 </Accordion.Body>
                             </Accordion.Item>

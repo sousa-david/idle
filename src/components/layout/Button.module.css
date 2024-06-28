@@ -1,0 +1,11 @@
+.customButton {
+    font-weight: bold;
+    color: white;
+    background-color: #5e068c;
+    border: none;
+}
+
+.customButton:hover {
+    background-color: #5e068c;
+    color: #cab4d9;
+}

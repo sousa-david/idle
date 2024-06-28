@@ -5,7 +5,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 
-import logo from "../../img/idle-white-logo.png";
+import logo from "../../img/gidle_logo_white.png";
 
 function NavigationBar() {
     return (

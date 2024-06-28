@@ -9,12 +9,14 @@ function Home() {
             <h1 className="display-5 mt-5">(G)I-DLE</h1>
             <Tabs defaultActiveKey="intro" id="tabs" className="mb-3" justify>
                 <Tab eventKey="intro" title="Introdução">
-                    <img src={gidle} className="img-fluid" alt="Grupo" />
-                    <p className="mt-4">
-                        <span className="fw-bold">(G)I-DLE</span> é um grupo feminino de K-pop formado pela CUBE Entertainment em 2018.
-                        Composto originalmente por seis membros &ndash; Soyeon, Miyeon, Minnie, Soojin, Yuqi e Shuhua &ndash; 
-                        o grupo rapidamente se destacou na indústria musical sul-coreana e internacional.
-                    </p>
+                    <div className="d-flex mt-4 mb-3">
+                        <img src={gidle} className="img-fluid" alt="As cinco integrantes do grupo" />
+                        <div className="px-3">
+                            <p><strong>(G)I-DLE</strong> é um grupo feminino de K-pop formado pela CUBE Entertainment em 2018.
+                            Composto originalmente por seis membros &ndash; Soyeon, Miyeon, Minnie, Soojin, Yuqi e Shuhua &ndash; 
+                            o grupo rapidamente se destacou na indústria musical sul-coreana e internacional.</p>
+                        </div>
+                    </div>
                 </Tab>
                 <Tab eventKey="name" title="Nome">
                     <p className="mt-4">
@@ -26,7 +28,7 @@ function Home() {
                 </Tab>
                 <Tab eventKey="fandom" title="Fandom">
                     <p className="mt-4">
-                        <span class="fst-italic">Neverland</span> é o nome oficial do fandom, ou seja, a comunidade 
+                        <em>Neverland</em> é o nome oficial do fandom, ou seja, a comunidade 
                         de fãs dedicados ao grupo. O termo é inspirado na terra mágica da história de Peter Pan, 
                         simbolizando um lugar onde os fãs e as integrantes do (G)I-DLE podem escapar da realidade 
                         e viver sonhos e aventuras juntos.
