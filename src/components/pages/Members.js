@@ -2,12 +2,12 @@ import { useState, useEffect } from "react";
 
 import MemberCard from "./MemberCard";
 
-import image1 from "../../img/soyeon.jpg";
-import image2 from "../../img/miyeon.jpg";
-import image3 from "../../img/minnie.jpg";
-import image4 from "../../img/yuqi.jpg";
-import image5 from "../../img/shuhua.jpg";
-import image6 from "../../img/soojin.jpg";
+import image1 from "../../img/jeon_soyeon.jpg";
+import image2 from "../../img/cho_miyeon.jpg";
+import image3 from "../../img/kim_minnie.jpg";
+import image4 from "../../img/song_yuqi.jpg";
+import image5 from "../../img/yeh_shuhua.jpg";
+import image6 from "../../img/seo_soojin.jpg";
 
 function Members() {
 

@@ -16,12 +16,12 @@ function Member() {
     const [member, setMember] = useState([]);
 
     const images = {
-        "soyeon": require('../../img/soyeon.jpg'),
-        "miyeon": require('../../img/miyeon.jpg'),
-        "minnie": require('../../img/minnie.jpg'),
-        "yuqi": require('../../img/yuqi.jpg'),
-        "shuhua": require('../../img/shuhua.jpg'),
-        "soojin": require('../../img/soojin.jpg')
+        "soyeon": require('../../img/jeon_soyeon.jpg'),
+        "miyeon": require('../../img/cho_miyeon.jpg'),
+        "minnie": require('../../img/kim_minnie.jpg'),
+        "yuqi": require('../../img/song_yuqi.jpg'),
+        "shuhua": require('../../img/yeh_shuhua.jpg'),
+        "soojin": require('../../img/seo_soojin.jpg')
     };
     const image = images[id];
 

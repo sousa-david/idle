@@ -1,10 +1,11 @@
 import Card from "react-bootstrap/Card";
 import Accordion from "react-bootstrap/Accordion";
 
-function Recording({name, type, release, tracklist}) {
+function Recording({name, type, cover, release, tracklist}) {
     return (
         <div className="mt-3">
             <Card bg="dark" text="white" style={{width:'18rem'}} className="mb-2 me-3">
+                <Card.Img src={cover} height={158} width={158} className="img-fluid" />
                 <Card.Header>{type}</Card.Header>
                 <Card.Body>
                     <Card.Title>{name}</Card.Title>
